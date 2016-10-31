@@ -24,7 +24,7 @@ h2, .h2 {
 }
 
 .article{
-
+  background-color: lightgreen;
 }
   .article__header {
     font-family: Arial, Helvetica;
@@ -32,5 +32,18 @@ h2, .h2 {
   }
 
   .article__footer{
-
+    background-color: lightblue;
   }
+
+li[data-attr="lang"] {
+  background-color: blue;
+  color: yellow;
+}
+li[data-attr="style"] {
+  background-color: black;
+  color: green;
+}
+li[data-attr="kernel"] {
+  background-color: olive;
+  color: white;
+}
